@@ -1,0 +1,24 @@
+.Footer{
+    padding-top: 3rem;
+    color: white;
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;
+}
+.img-share{
+    padding-right: 0.4rem;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+ul>li{
+    list-style: none;
+    color: grey;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.heading{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+

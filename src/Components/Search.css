@@ -1,0 +1,26 @@
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 8rem;
+}
+.Search{
+    color: white;
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 7px;
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.btn-clear{
+    position: absolute;
+    color: white;
+    right: 3.5rem;
+    font-size: 1rem;
+    border-radius: 7px;
+    background: red;
+    cursor: pointer;
+    padding: 0.5rem;
+}

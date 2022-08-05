@@ -1,0 +1,77 @@
+.Main{
+    color: white;
+    padding-left: 1rem;
+    display: flex;
+    background: black;
+}
+.Filters>*{
+    padding: 0.75rem;
+}
+.Filters>input{
+    height: 1.5rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: white;
+    background: #2e2e2e;
+}
+.minmax>input{
+    padding: 0.75rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 4rem;
+    margin-right: 1rem;
+    color: white;
+    background: #2e2e2e;
+}
+.minmax{
+    padding-left: 0;
+}
+.gyms{
+    height: 42rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 75%;
+    margin-left: 2.5rem;
+}
+.gyms-card{
+    margin-top: 2rem;
+    display: flex;
+    height: 300px;
+}
+.gym-img{
+    height: 300px;
+    width: 400px;
+}
+.gym-details{
+    width: 100%;
+    background: #131313;
+    padding: 1rem;
+}
+.gym-details>*{
+    background: #131313;
+}
+.price-book{
+    color: white;
+    margin-top: 6rem;
+    background: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    background: #131313;
+    color: #9e8012;
+}
+.btn-bookNow{
+    width: 5.5rem;
+    color: white;
+    background: red;
+    height: 2.7rem;
+    border-radius: 4px;
+}
+
+.footer-bg{
+    margin-top: 4rem;
+    background: url("../assets/footerbg.png");
+    height: 350px;
+}
