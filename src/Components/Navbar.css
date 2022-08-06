@@ -45,6 +45,82 @@ h1{
 
 .Navbar-bg{
     background: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 480px;
+}
+
+@media(max-width: 1291px) {
+    .Navbar-bg{
+        height: 300px;
+    }
+  }
+
+  @media(max-width: 850px) {
+    .Navbar-bg{
+        height: 200px;
+    }
+  }
+  @media(max-width: 570px) {
+    .Navbar-bg{
+        height: 140px;
+    }
+  }
+
+.Nav-mob{
+    height: 100vh;
+    background: red;
+    width: 30vw;
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 1;
+}
+
+.nav-mob-link>*{
+    background-color: red;
+    list-style: none;
+    font-size: 1.7rem;
+    padding-left: 0.5rem;
+}
+.nav-mob-link{
+    background-color: red;
+    margin-top: 3rem;
+}
+.text{
+    color: white;
+}
+.btn-close{
+    border: none;    
+    margin-left: 85%;
+    background: none    ;
+    margin-top: 10px;
+
+}
+.btn-close>img{
+    height: 20px;
+    width: 20px;
+    background: red;
+}
+.btn-menu{
+    border: none;
+    background: none;
+}
+.btn-menu>img{
+    height: 25px;
+    width: 25px;
+    background: none;
+    margin-right: 1rem;
+}
+.navnone{
+    display: none;
+}
+@media(max-width: 742px){
+    .nav-link{
+        display: none;
+    }
+    .Navbar{
+        justify-content: flex-start;
+        margin-left: 1.5rem;
+    }
 }

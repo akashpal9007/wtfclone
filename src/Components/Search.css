@@ -24,3 +24,12 @@
     cursor: pointer;
     padding: 0.5rem;
 }
+
+@media(max-width: 550px) {
+    .searchBar{
+        height: 6rem;
+    }
+    .Search{
+        width: 80%;
+    }
+}

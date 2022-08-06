@@ -40,10 +40,12 @@ const Main = () => {
             <div className='gyms-card'>
                 <img src="https://images.unsplash.com/photo-1637430308606-86576d8fef3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" className='gym-img' />
                 <div className='gym-details'>
-                  <h2>{gym.gym_name}</h2>
-                  <h2>Rating: {gym.rating}star</h2>
-                  <h3>{gym.address1},{gym.address2},{gym.city},{gym.state}</h3>
-                  <h3>{gym.distance} meters</h3>
+                  <div className='detail-content'>
+                    <h2>{gym.gym_name}</h2>
+                    <h2>Rating: {gym.rating}star</h2>
+                    <h3>{gym.address1},{gym.address2},{gym.city},{gym.state}</h3>
+                    <h3>{gym.distance} meters</h3>
+                  </div>
                   <div className='price-book'>
                     <h3 className='price'>Price</h3>
                     <button className='btn-bookNow'>Book Now</button>
