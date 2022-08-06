@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -24,6 +24,10 @@ const Navbar = () => {
     }
     window.addEventListener("resize", displayNav);
     window.addEventListener("scroll", changeColor);
+    useEffect(() => {
+      displayNav();
+    })
+    
   return (
     <div>
         <div className={nav ? 'Nav-mob' : 'navnone'}>
